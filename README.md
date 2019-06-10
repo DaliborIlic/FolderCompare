@@ -19,7 +19,7 @@ To compile and hot-reload for development and serve the frontend use
 
     npm run serve
 
-Generally, it's a good idea to start the backend first, as it is setup to use localhost/api:8080 and the frontend will be served from http://localhost:8081 (it will take the next free port).
+Generally, it's a good idea to start the backend first, as it is setup to use http://localhost/api:8080 and the frontend will be served from http://localhost:8081 (it will take the next free port).
 
 If any problems should arise during the install, try deleting node_modules folder and package-lock.json file and try again.
 
