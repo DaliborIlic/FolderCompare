@@ -61,7 +61,7 @@ export default {
         let name2 = oriNode.data.name2 ? oriNode.data.name2 : '';        
         let data = [];
         /* if root node call the API with no parameters, if regular node form the url with path and name parameters and make the call*/
-        let url = path1 == '' ? 'http://192.168.1.8:8080/api' : `http://192.168.1.8:8080/api?path1=${path1}/${name1}&path2=${path2}/${name2}`;
+        let url = path1 == '' ? 'http://localhost:8080/api' : `http://localhost:8080/api?path1=${path1}/${name1}&path2=${path2}/${name2}`;
         axios.get(url).then((response) => {
           return response.data; // axios returns a promise
         })
