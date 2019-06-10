@@ -14,7 +14,9 @@ Navigate to respective folders and install using
     npm install
 To start the backend use 
 
-    npm start  - or - node app.js
+    npm start
+    - or -
+    node app.js
 To compile and hot-reload for development and serve the frontend use 
 
     npm run serve
@@ -26,4 +28,3 @@ If any problems should arise during the install, try deleting node_modules folde
 ## IMPORTANT
 Comparison folders are not included!
 You need to add them to 'backend' folder - 'backend/dir1' and 'backend/dir2'
-
