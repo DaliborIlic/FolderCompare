@@ -9,7 +9,7 @@ Libraries and plugins used:
 - A tree plugin for vue2 - https://github.com/zdy1988/vue-jstree
 
 The project is setup as 2 folders - Node 'backend' and vue 'frontend'.
-Navigate to respective folders and install use 
+Navigate to respective folders and install using 
 
     npm install
 To start the backend use 
@@ -19,7 +19,7 @@ To compile and hot-reload for development and serve the frontend use
 
     npm run serve
 
-###IMPORTANT
+#IMPORTANT
 Comparison folders are not included!
 You need to add them to 'backend' folder - 'backend/dir1' and 'backend/dir2'
 
