@@ -21,7 +21,7 @@ To compile and hot-reload for development and serve the frontend use
 
 Generally, it's a good idea to start the backend first, as it is setup to use localhost/api:8080 and the frontend will be served from http://localhost:8081 (it will take the next free port).
 
-#IMPORTANT
+## IMPORTANT
 Comparison folders are not included!
 You need to add them to 'backend' folder - 'backend/dir1' and 'backend/dir2'
 
